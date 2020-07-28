@@ -1,0 +1,1 @@
+html{box-sizing:border-box;width:100vw}*,:after,:before{box-sizing:inherit}body{padding:30px}input{width:200px;height:30px;border-radius:5px;border-color:#d3d3d3}input::placeholder{font-style:italic;color:#d3d3d3}
