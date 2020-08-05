@@ -8,6 +8,8 @@ const refs = {
 
 export default function fetchCountries(event) {
   const inputValue = event.target.value;
+  refs.list.innerHTML = '';
+
   fetch(`https://restcountries.eu/rest/v2/name/${inputValue}`)
     .then(result => result.json())
     .then(countries => {
